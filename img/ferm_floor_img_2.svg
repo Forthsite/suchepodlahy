@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="494.408" height="421" viewBox="0 0 494.408 421">
+  <g id="Group_35" data-name="Group 35" transform="translate(-642.592 -135)">
+    <g id="Rectangle_120" data-name="Rectangle 120" transform="translate(643 135)" fill="none" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="494" height="421" stroke="none"/>
+      <rect x="0.5" y="0.5" width="493" height="420" fill="none"/>
+    </g>
+    <g id="Group_34" data-name="Group 34">
+      <rect id="Rectangle_119" data-name="Rectangle 119" width="353.303" height="353.303" transform="matrix(0.742, 0.346, -0.666, 0.469, 874.59, 187.502)" fill="#ff9321" opacity="0.286"/>
+      <g id="Group_32" data-name="Group 32" transform="matrix(0.742, 0.346, -0.666, 0.469, 49.923, -334.416)">
+        <rect id="Rectangle_114" data-name="Rectangle 114" width="171.303" height="171.303" transform="translate(1246 152)" fill="#ff9321" opacity="0.663"/>
+        <rect id="Rectangle_115" data-name="Rectangle 115" width="171.303" height="171.303" transform="translate(1427.032 152)" fill="#ff9321" opacity="0.663"/>
+        <rect id="Rectangle_116" data-name="Rectangle 116" width="171.303" height="171.303" transform="translate(1427.032 333.032)" fill="#ff9321" opacity="0.663"/>
+        <rect id="Rectangle_117" data-name="Rectangle 117" width="171.303" height="171.303" transform="translate(1246 333.032)" fill="#ff9321" opacity="0.663"/>
+      </g>
+    </g>
+  </g>
+</svg>
