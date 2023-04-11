@@ -79,6 +79,16 @@ hr {
     display: flex;
     align-items: center;
     margin-left: 3rem;
+    gap: 3rem;
+}
+.socials-menu svg{
+    width: 4rem;
+    display: flex;
+    color: var(--main-color);
+    transition: 0.5s all ease;
+}
+.socials-menu svg:hover{
+    color: #dddfe2;
 }
 .cta{
     display: flex;
@@ -761,9 +771,6 @@ label{
         margin-right: 1rem;
         gap: 1rem;
         text-align: center;
-    }
-    .socials-menu{
-        margin-left: 0rem;
     }
     .navbar-menu{
         display: none;
