@@ -282,6 +282,13 @@ button:active{
 .about-img img{
     width: calc(100vw / 4.75);
 }
+.about-img{
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.about-img:hover{
+    scale: 1.1;
+}
 .wrapper{
     display: flex;
     justify-content: space-between;
@@ -719,12 +726,21 @@ label{
     cursor: default;
 }
 .blogpost-image{
-    width: 45rem;
+    width: 22%;
     background-repeat: no-repeat;
     object-fit: cover;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
     background-image: url(./img/muzeum-brno-6.jpg);
+}
+.therm25{
+    background-image: url(./img/Therm25-foto9.jpg);
+    background-position: center;
+    object-fit:contain;
+}
+.radnice{
+    background-image: url(./img/radnice-brno-16.jpg);
+    background-position: 50%;
 }
 .blogpost-text{
     -webkit-box-orient: vertical;
@@ -742,6 +758,7 @@ label{
     background-color:;
     flex-direction: column;
     padding: 1rem;
+    width: 80%;
 }
 .blogpost-content button{
     align-self: flex-end;
