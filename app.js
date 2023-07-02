@@ -66,3 +66,39 @@ zlinpin.addEventListener("mouseover", function(){
 zlinpin.addEventListener("mouseout", function(){
   zlintip.setAttribute("style", "display: none;");
 });
+
+function toggleArticle() {
+  const article = document.getElementById('read-more');
+  const articlebtn = document.getElementById('articlebtn');
+  
+  if (article.style.display === 'flex') {
+    articlebtn.innerHTML = "Číst dále";
+    article.classList.remove('articlefadein');
+    article.classList.add('articlefadeout');
+    setTimeout(() => {
+      article.style.display = 'none';
+    }, 500);
+  } else {
+    articlebtn.innerHTML = "Skrýt";
+    article.style.display = 'flex';
+    article.classList.remove('articlefadeout');
+    article.classList.add('articlefadein');
+    
+    // Scroll to the article element after a delay
+    setTimeout(() => {
+      article.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  }
+}
+
+function expandblogpost(blogpostID){
+  const blogpost = document.getElementById(blogpostID);
+  if (blogpost.classList.contains('blogpost-text')){
+    blogpost.classList.remove('blogpost-text');
+    blogpost.classList.add('blogpost-text-full');
+  }
+  else{
+    blogpost.classList.remove('blogpost-text-full');
+    blogpost.classList.add('blogpost-text');yaa
+  }
+}
